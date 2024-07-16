@@ -11,17 +11,16 @@ print(""*50)
 # Task 2: Your Mood Today
 
 ask = "How are you feeling today?"
-print(ask)
 
-user_input = input()
+user_input = input(ask)
 print(user_input)
 
 happy1 = "That's great to hear!"
 sad1 = "I'm sorry to hear that."
 
-if input == "happy":
+if user_input == "happy":
     print(happy1)
-elif "sad":
+elif user_input == "sad":
     print(sad1)
 
 # I cannot get happy1 to to print with the right user_input *** I need some help with this. *** 
